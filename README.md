@@ -1,7 +1,7 @@
 # TPG4920---Master-thesis
 This is the python code that has been used for the work on my masters thesis in reservoir engineering.
 
-The main script is in the file nn_setup.py. This script includes the import of data from .scv file, preprocessing of data, and the training of the artificial neural network.
+The main script is in the file nn_setup.py. This script includes the import of data from .csv file, preprocessing of data, and the training of the artificial neural network.
 It alo includes some plotting at the bottom of the script. 
 
 The code that is called ga.py is the main script for the genetic algorithm. It is in this file that problem specifications are done, such as objective function and population size etc.
