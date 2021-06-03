@@ -13,9 +13,9 @@ def runEclipse(filename):
     os.system(r'C:\ecl\macros\eclrun.exe eclipse' + filename)
 
 def latinHypercube(n):
-    # This functino takes in an integer and generates a latin square
+    # This function takes in an integer and generates a latin square
     # of size n. The samples will be between the range of 0 and 1
-    # so it has to be sccaled up after using the function
+    # so it has to be scaled up after using the function
 
     lowerLimits = np.arange(0,n)/n
     upperLimits = np.arange(1,n+1)/n
